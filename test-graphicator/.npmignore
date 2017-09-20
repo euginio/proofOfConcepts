@@ -1,0 +1,5 @@
+.gitignore
+clientSideExample
+tsconfig.json
+webpack.config.js
+*.js.map

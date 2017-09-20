@@ -1,0 +1,31 @@
+{
+  "name": "test-graphicator",
+  "description": "Draw chart from 'tabulator' tables",
+  "version": "0.1.0",
+  "author": "Codenautas <codenautas@googlegroups.com>",
+  "main": "./dist/main.js",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Eugenio Arosteguy",
+      "email": "eugenio.arosteguy@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "graphicator": "0.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2",
+    "webpack": "^3.5.6",
+    "ts-loader": "^2.3.7",
+    "@types/node": "^8.0.28"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "start": "node serverSideExample/server.js",
+    "build": "webpack",
+    "build-watch": "webpack --watch"
+  }
+}
