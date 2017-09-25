@@ -12,7 +12,8 @@
     }
   ],
   "dependencies": {
-    "graphicator": "0.18.0"
+    "graphicator": "0.21.0",
+    "tabulator": "0.1.22"
   },
   "devDependencies": {
     "typescript": "^2.5.2",

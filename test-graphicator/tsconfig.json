@@ -3,7 +3,7 @@
         "module": "commonjs",
         "target": "es5",
         "removeComments": true,
-        // "sourceMap": true,
+        "sourceMap": true,
         // "strict": true,
         "noImplicitAny": true,
         "alwaysStrict": true,
